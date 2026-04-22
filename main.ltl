@@ -1,0 +1,15 @@
+// ltl-cbor/main.ltl
+//
+// Concise Binary Object Representation (RFC 8949) codec.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-cbor v0.1.0")
+    io::println("Concise Binary Object Representation (RFC 8949) codec.")
+    0
+}
